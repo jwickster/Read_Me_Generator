@@ -1,7 +1,23 @@
 {
-  "name": "Read_Me_Generator",
+  "name": "read_me_generator",
   "version": "1.0.0",
   "dependencies": {
     "inquirer": "^7.3.3"
-  }
+  },
+  "description": "",
+  "main": "index .js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwickster/Read_Me_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwickster/Read_Me_Generator/issues"
+  },
+  "homepage": "https://github.com/jwickster/Read_Me_Generator#readme"
 }
