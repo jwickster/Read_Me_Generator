@@ -68,7 +68,7 @@ const questions = [
     message: "Please describe how we can use this program/project.",
     validate: validateInput,
   },
-  
+  //Project description
   {
     type: "input",
     name: "description",
@@ -88,7 +88,7 @@ const questions = [
   {
     type: "input",
     name: "userEmail",
-    message: "What is your GitHub email address that contributors may contact?",
+    message: "What is your email address associated with your GitHub",
     validate: function (value) {
       if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
         return true;
@@ -97,7 +97,26 @@ const questions = [
       }
     },
   },
-    
-  
-  
 ];
+
+// creates ReadMe
+//Had a tutor that I work with assist with this
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, generateMarkdown(data), function (err) {
+    if (err) {
+      return console.log(err);
+    }
+  });
+}
+
+// function to initalize the beginning of the questions
+const init = () => {
+  inquirer.prompt(questions).then((data) => {
+    console.log(JSON.stringify(data, null, " "));
+    data.getLicense = getLicense(data.license);
+    //Write to file
+    writeToFile("./example/README.md", data);
+  });
+};
+
+init();
