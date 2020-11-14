@@ -6,7 +6,8 @@ const generateMarkdown = require('./generate-markdown');
 
 
 //Got tutor to assist with this. Was going to put into switch statement
-const getLicense = function(value) {
+// let getLiscenseForReadme;
+let getLiscenseForReadme = value => {
   if (value === 'GNU AGPLv3') {
     return '[![License: AGPL v3]' +
         '(https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]' +
@@ -120,7 +121,7 @@ function writeToFile(fileName, data) {
 const init = () => {
   inquirer.prompt(questions).then((data) => {
     console.log(JSON.stringify(data, null, " "));
-    data.getLicense = getLicense(data.license);
+    data.getLicense = getLiscenseForReadme(data.license);
     //Write to file
     writeToFile("./example/README.md", data);
   });
