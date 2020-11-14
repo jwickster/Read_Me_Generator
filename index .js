@@ -39,6 +39,7 @@ function validateInput (value) {
 
 const questions = [
   {
+    //License
     type: "list",
     name: "license",
     message: "Please license for this project.",
@@ -54,12 +55,14 @@ const questions = [
     validate: validateInput,
   },
   {
+    //title
     type: "input",
     name: "title",
     message: "Enter title of project",
     validate: validateInput,
   },
   {
+    //usage
     type: "input",
     name: "usage",
     message: "Please describe how we can use this program/project.",
@@ -71,6 +74,30 @@ const questions = [
     name: "description",
     message: "Enter description of project",
     validate: validateInput,
-  }
+  },
+  //Github info
+  {
+    type: "input",
+    name: "userName",
+    message: "What is your GitHub username?",
+    validate: validateInput,
+  },
+    
+    //attempt at email validation
+    //https://medium.com/@vishutomar/java-script-email-validation-its-very-important-to-validate-the-email-id-6051b5857f5f
+  {
+    type: "input",
+    name: "userEmail",
+    message: "What is your GitHub email address that contributors may contact?",
+    validate: function (value) {
+      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
+        return true;
+      } else {
+        return "Not a valid email address. Please enter a valid email address.";
+      }
+    },
+  },
+    
   
-]
+  
+];
