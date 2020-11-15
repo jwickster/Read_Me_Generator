@@ -8,11 +8,9 @@ const generateMarkdown = require('./generate-markdown');
 //Got tutor to assist with this. Was going to put into switch statement
 // let getLiscenseForReadme;
 let getLiscenseForReadme = value => {
-  if (value === 'GNU AGPLv3') {
-    return '[![License: AGPL v3]' +
-        '(https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]' +
-        '(https://www.gnu.org/licenses/agpl-3.0)';
-  } else if (value === 'GNU GPLv3') {
+  if (value === 'GNU AGPLv3') return '[![License: AGPL v3]' +
+      '(https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]' +
+      '(https://www.gnu.org/licenses/agpl-3.0)'; else if (value === 'GNU GPLv3') {
     return '[![License: GPL v3]' +
         '(https://img.shields.io/badge/License-GPLv3-blue.svg)]' +
         '(https://www.gnu.org/licenses/gpl-3.0)';
