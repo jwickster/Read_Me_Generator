@@ -1,6 +1,6 @@
-const {writeFile} = require('fs');
+const {writeFile: writeFile} = require('fs');
 
-const {prompt} = require('inquirer');
+const {prompt: prompt} = require('inquirer');
 
 const generateMarkdown = require('./generate-markdown');
 
