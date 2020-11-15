@@ -1,9 +1,9 @@
 
 # Project Title
-Test Shit
+Test Raedme Project
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 # Description
-jkdhfjkdhfjhfdjhfdfhdfhd
+Program that generates a Readme file through the use of prompts
 # Table of Contents
 * [Installation](#-Installation)
 * [Usage](#-Usage)
@@ -15,7 +15,7 @@ jkdhfjkdhfjhfdjhfdfhdfhd
 # Installation
 undefined
 # Usage
-hdgjhdfjdhdsjfhsdjklfhdjk
+This is a project used to auto-generate a Readme.md file 
 # License
 GNU
 
