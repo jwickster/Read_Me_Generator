@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a26c63b7-8307-4aa8-a81d-350b29e11869" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Presentation" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -83,7 +88,7 @@
       <updated>1605394894000</updated>
       <workItem from="1605394895028" duration="3289000" />
       <workItem from="1605398459319" duration="1287000" />
-      <workItem from="1605399796489" duration="1422000" />
+      <workItem from="1605399796489" duration="2063000" />
     </task>
     <servers />
   </component>
@@ -127,5 +132,9 @@
       <screen x="0" y="25" width="3840" height="1006" />
     </state>
     <state x="1429" y="164" key="SettingsEditor/0.25.3840.1006@0.25.3840.1006" timestamp="1605399782221" />
+    <state x="1461" y="245" key="Vcs.Push.Dialog.v2" timestamp="1605401929829">
+      <screen x="0" y="25" width="3840" height="1006" />
+    </state>
+    <state x="1461" y="245" key="Vcs.Push.Dialog.v2/0.25.3840.1006@0.25.3840.1006" timestamp="1605401929829" />
   </component>
 </project>
