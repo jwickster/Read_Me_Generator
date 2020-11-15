@@ -86,18 +86,14 @@ const questions = [
     validate: validateInput,
   },
 
-    //attempt at email validation
+    //attempt at email validation using:
     //https://medium.com/@vishutomar/java-script-email-validation-its-very-important-to-validate-the-email-id-6051b5857f5f
   {
     type: "input",
     name: "userEmail",
     message: "What is your email address associated with your GitHub",
-    validate: function (value) {
-      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
-        return true;
-      } else {
-        return "Not a valid email address. Please enter a valid email address.";
-      }
+    validate: value => {
+      return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value) ? true : "Not a valid email address. Please enter a valid email address.";
     },
   },
 ];
@@ -113,13 +109,13 @@ function writeToFile(fileName, data) {
 }
 
 // function to initalize the beginning of the questions
-const init = () => {
+const initializeApplication = () => {
   prompt(questions).then((data) => {
     console.log(JSON.stringify(data, null, " "));
     data.getLicense = getLiscenseForReadme(data.license);
     //Write to file
-    writeToFile("./example/README.md", data);
+    writeToFile("./README.md", data);
   });
 };
 
-init();
+initializeApplication();

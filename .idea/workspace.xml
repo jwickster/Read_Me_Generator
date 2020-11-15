@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a26c63b7-8307-4aa8-a81d-350b29e11869" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index .js" beforeDir="false" afterPath="$PROJECT_DIR$/index .js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +58,21 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605394894000</updated>
       <workItem from="1605394895028" duration="3289000" />
-      <workItem from="1605398459319" duration="818000" />
+      <workItem from="1605398459319" duration="1287000" />
+      <workItem from="1605399796489" duration="769000" />
     </task>
     <servers />
   </component>
@@ -93,21 +108,25 @@
       <screen x="0" y="25" width="3840" height="1006" />
     </state>
     <state x="2070" y="450" width="569" height="155" key="GitCloneDialog/0.25.3840.1006@0.25.3840.1006" timestamp="1605397780571" />
-    <state width="1358" height="258" key="GridCell.Tab.0.bottom" timestamp="1605398584625">
+    <state width="1358" height="258" key="GridCell.Tab.0.bottom" timestamp="1605399784776">
       <screen x="0" y="25" width="3840" height="1006" />
     </state>
-    <state width="1358" height="258" key="GridCell.Tab.0.bottom/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584625" />
-    <state width="1358" height="258" key="GridCell.Tab.0.center" timestamp="1605398584624">
+    <state width="1358" height="258" key="GridCell.Tab.0.bottom/0.25.3840.1006@0.25.3840.1006" timestamp="1605399784776" />
+    <state width="1358" height="258" key="GridCell.Tab.0.center" timestamp="1605399784775">
       <screen x="0" y="25" width="3840" height="1006" />
     </state>
-    <state width="1358" height="258" key="GridCell.Tab.0.center/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584624" />
-    <state width="1358" height="258" key="GridCell.Tab.0.left" timestamp="1605398584623">
+    <state width="1358" height="258" key="GridCell.Tab.0.center/0.25.3840.1006@0.25.3840.1006" timestamp="1605399784775" />
+    <state width="1358" height="258" key="GridCell.Tab.0.left" timestamp="1605399784773">
       <screen x="0" y="25" width="3840" height="1006" />
     </state>
-    <state width="1358" height="258" key="GridCell.Tab.0.left/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584623" />
-    <state width="1358" height="258" key="GridCell.Tab.0.right" timestamp="1605398584624">
+    <state width="1358" height="258" key="GridCell.Tab.0.left/0.25.3840.1006@0.25.3840.1006" timestamp="1605399784773" />
+    <state width="1358" height="258" key="GridCell.Tab.0.right" timestamp="1605399784776">
       <screen x="0" y="25" width="3840" height="1006" />
     </state>
-    <state width="1358" height="258" key="GridCell.Tab.0.right/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584624" />
+    <state width="1358" height="258" key="GridCell.Tab.0.right/0.25.3840.1006@0.25.3840.1006" timestamp="1605399784776" />
+    <state x="1429" y="164" key="SettingsEditor" timestamp="1605399782221">
+      <screen x="0" y="25" width="3840" height="1006" />
+    </state>
+    <state x="1429" y="164" key="SettingsEditor/0.25.3840.1006@0.25.3840.1006" timestamp="1605399782221" />
   </component>
 </project>
