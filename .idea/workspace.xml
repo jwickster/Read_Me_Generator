@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26c63b7-8307-4aa8-a81d-350b29e11869" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate-markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/generate-markdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index .js" beforeDir="false" afterPath="$PROJECT_DIR$/index .js" afterDir="false" />
-    </list>
+    <list default="true" id="a26c63b7-8307-4aa8-a81d-350b29e11869" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -69,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605394894000</updated>
       <workItem from="1605394895028" duration="3289000" />
+      <workItem from="1605398459319" duration="475000" />
     </task>
     <servers />
   </component>
@@ -85,11 +83,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2070" y="450" width="569" height="155" key="GitCloneDialog" timestamp="1605397780571">
       <screen x="0" y="25" width="3840" height="1006" />
     </state>
     <state x="2070" y="450" width="569" height="155" key="GitCloneDialog/0.25.3840.1006@0.25.3840.1006" timestamp="1605397780571" />
+    <state width="1358" height="258" key="GridCell.Tab.0.bottom" timestamp="1605398584625">
+      <screen x="0" y="25" width="3840" height="1006" />
+    </state>
+    <state width="1358" height="258" key="GridCell.Tab.0.bottom/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584625" />
+    <state width="1358" height="258" key="GridCell.Tab.0.center" timestamp="1605398584624">
+      <screen x="0" y="25" width="3840" height="1006" />
+    </state>
+    <state width="1358" height="258" key="GridCell.Tab.0.center/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584624" />
+    <state width="1358" height="258" key="GridCell.Tab.0.left" timestamp="1605398584623">
+      <screen x="0" y="25" width="3840" height="1006" />
+    </state>
+    <state width="1358" height="258" key="GridCell.Tab.0.left/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584623" />
+    <state width="1358" height="258" key="GridCell.Tab.0.right" timestamp="1605398584624">
+      <screen x="0" y="25" width="3840" height="1006" />
+    </state>
+    <state width="1358" height="258" key="GridCell.Tab.0.right/0.25.3840.1006@0.25.3840.1006" timestamp="1605398584624" />
   </component>
 </project>

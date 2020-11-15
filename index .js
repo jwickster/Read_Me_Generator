@@ -1,6 +1,6 @@
-const fs = require('fs');
+const {writeFile} = require('fs');
 
-const inquirer = require('inquirer');
+const {prompt} = require('inquirer');
 
 const generateMarkdown = require('./generate-markdown');
 
@@ -48,13 +48,10 @@ const questions = [
     //License
     type: "list",
     name: "license",
-    message: "Please license for this project.",
+    message: "Please enter the license for this project.",
     choices: [
-      "GNU AGPLv3",
-      "GNU GPLv3",
-      "GNU LGPLv3",
-      "Apache 2.0",
-      "Boost Software 1.0",
+      "GNU",
+      "BSD",
       "MIT",
       "Mozilla",
     ],
@@ -88,7 +85,7 @@ const questions = [
     message: "What is your GitHub username?",
     validate: validateInput,
   },
-    
+
     //attempt at email validation
     //https://medium.com/@vishutomar/java-script-email-validation-its-very-important-to-validate-the-email-id-6051b5857f5f
   {
@@ -108,7 +105,7 @@ const questions = [
 // creates ReadMe
 //Had a tutor that I work with assist with this
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, generateMarkdown(data), function (err) {
+  writeFile(fileName, generateMarkdown(data), function (err) {
     if (err) {
       return console.log(err);
     }
@@ -117,7 +114,7 @@ function writeToFile(fileName, data) {
 
 // function to initalize the beginning of the questions
 const init = () => {
-  inquirer.prompt(questions).then((data) => {
+  prompt(questions).then((data) => {
     console.log(JSON.stringify(data, null, " "));
     data.getLicense = getLiscenseForReadme(data.license);
     //Write to file
