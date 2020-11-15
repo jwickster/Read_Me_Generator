@@ -1,12 +1,12 @@
-const {writeFile: writeFile} = require('fs');
-
-const {prompt: prompt} = require('inquirer');
-
-const generateMarkdown = require('./generate-markdown');
+const {writeFile: writeFile} = require('fs'),
+    {prompt: prompt} = require('inquirer'),
+    generateMarkdown = require('./generate-markdown');
 
 
-//Got tutor to assist with this. Was going to put into switch statement
-// let getLiscenseForReadme;
+/*
+Got tutor to assist with this. Was going to put into switch statement
+ let getLiscenseForReadme;
+*/
 let getLiscenseForReadme = value => {
   if (value === 'GNU AGPLv3') return '[![License: AGPL v3]' +
       '(https://img.shields.io/badge/License-AGPL%20v3-blue.svg)]' +
